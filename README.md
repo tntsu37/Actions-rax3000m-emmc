@@ -1,3 +1,5 @@
+所有内容均Fork自AngelaCooljx：https://github.com/AngelaCooljx
+
 **闭源驱动** | [开源驱动](README_mainline.md)
 
 # Actions-rax3000m-emmc

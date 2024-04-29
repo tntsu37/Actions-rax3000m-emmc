@@ -9,4 +9,10 @@ echo 'src-git luci-app-adguardhome https://github.com/rufengsuixing/luci-app-adg
 #echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
 #echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
 #docker
-echo 'src-git luci-app-docker https://github.com/brokeld/luci-app-docker.git' >> feeds.conf.default
+#echo 'src-git luci-app-docker https://github.com/brokeld/luci-app-docker.git' >> feeds.conf.default
+
+#删除冲突的软件包
+#rm -rf ./package/istore
+#rm -rf ./feeds/kenzo/luci-app-quickstart
+#rm -rf ./feeds/kenzo/luci-app-store
+#rm -rf ./feeds/kenzo/luci-lib-taskd
